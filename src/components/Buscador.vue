@@ -51,7 +51,7 @@
                     </div>
                 </div>
 
-                <v-btn prepend-icon="mdi-airplane" class="w-full sm:w-auto bg-blue-600 text-white h-12 mt-3">
+                <v-btn prepend-icon="mdi-airplane" class="w-full sm:w-auto bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-300 dark:text-blue-800 dark:hover:bg-blue-400 h-12 mt-3">
                     Search
                 </v-btn>
             </div>

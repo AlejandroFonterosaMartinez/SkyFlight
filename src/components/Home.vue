@@ -147,7 +147,7 @@
                   variant="solo"></v-textarea>
 
                 <!-- Botón de Enviar -->
-                <v-btn color="primary" class="w-full" elevation="2" prepend-icon="mdi-send">
+                <v-btn class="w-full bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-300 dark:text-blue-800 dark:hover:bg-blue-400" elevation="2" prepend-icon="mdi-send" >
                   Send Message
                 </v-btn>
               </v-form>
