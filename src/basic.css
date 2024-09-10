@@ -1,0 +1,26 @@
+.custom-bg {
+    background-image: url('img/fondo.png') !important;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .custom-bg-dark {
+    background-image: url('img/fondo-oscuro.png') !important;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  .bg-footer {
+    background-image: url('img/footer.png') !important;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .bg-footer-dark {
+    background-image: url('img/footer-dark.png') !important;
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
