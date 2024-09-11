@@ -5,7 +5,7 @@
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                     <!-- Mobile menu button-->
                     <button type="button"
-                        class="relative inline-flex items-center justify-center rounded-md p-2  text-blue-600 bg-white   focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                        class="relative inline-flex items-center justify-center rounded-md p-2  text-blue-600 bg-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
                         aria-controls="mobile-menu" aria-expanded="false">
                         <span class="absolute -inset-0.5"></span>
                         <span class="sr-only">Open main menu</span>
@@ -30,16 +30,16 @@
                     </div>
                     <div class="hidden sm:ml-6 sm:block">
                         <div class="flex space-x-4">
-
+                            <router-link to="/Vuelos"
+                                class="block  px-3 py-2 text-base font-medium text-blue-600 hover:bg-blue-800 bg-white rounded-2xl  ">
+                                <v-icon class="text-blue-600">mdi-airplane-landing</v-icon> Flights</router-link>
                             <a href="#"
-                                class="block  px-3 py-2 text-base font-medium text-blue-600 bg-white rounded-2xl  ">
+                                class="block  px-3 py-2 text-base font-medium text-blue-600 hover:bg-blue-800 bg-white rounded-2xl  ">
                                 <v-icon class="text-blue-600">mdi-bag-suitcase</v-icon> My bookings</a>
                             <a href="#"
-                                class="block  px-3 py-2 text-base font-medium text-blue-600 bg-white rounded-2xl  ">
+                                class="block  px-3 py-2 text-base font-medium text-blue-600 hover:bg-blue-800 bg-white rounded-2xl  ">
                                 <v-icon class="text-blue-600">mdi-help</v-icon> ¿Need help?</a>
-                            <router-link to="/Vuelos"
-                                class="block  px-3 py-2 text-base font-medium text-blue-600 bg-white rounded-2xl  ">
-                                <v-icon class="text-blue-600">mdi-airplane-landing</v-icon> Flights</router-link>
+
                         </div>
                     </div>
                 </div>
@@ -48,11 +48,9 @@
                     <div class="relative ml-3">
                         <div>
                             <button type="button" @click="cambiarTema"
-                                class="relative rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-offset-2 text-blue-600 bg-white"
-                                >
+                                class="relative rounded-full p-1 focus:outline-none focus:ring-2 focus:ring-offset-2 text-blue-600 hover:text-blue-800 bg-white">
                                 <span class="absolute -inset-1.5"></span>
-                                <v-icon  class="text-blue-600"
-                                    v-if="!isDarkTheme">
+                                <v-icon class="text-blue-600" v-if="!isDarkTheme">
                                     mdi-weather-sunny
                                 </v-icon>
                                 <v-icon class="text-blue-600" v-else>
@@ -64,7 +62,7 @@
 
                     <!-- Noti-->
                     <button type="button"
-                        class="relative rounded-full bg-white ml-3  p-1 text-blue-600  focus:outline-none focus:ring-2  focus:ring-offset-2 ">
+                        class="relative rounded-full bg-white ml-3  p-1 text-blue-600 hover:text-blue-800  focus:outline-none focus:ring-2  focus:ring-offset-2 ">
                         <span class="absolute -inset-1.5"></span>
                         <span class="sr-only">View notifications</span>
                         <svg class="h-6 w-6 text-blue-600 " fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -78,7 +76,7 @@
                     <div class="relative ml-3">
                         <div>
                             <button type="button"
-                                class="relative rounded-full bg-white  p-1 text-blue-600  focus:outline-none focus:ring-2  focus:ring-offset-2 ">
+                                class="relative rounded-full bg-white  p-1 text-blue-600 hover:text-blue-800  focus:outline-none focus:ring-2  focus:ring-offset-2 ">
                                 <span class="absolute -inset-1.5"></span>
                                 <span class="sr-only">Open user menu</span>
                                 <v-icon class="text-blue-600">mdi-account</v-icon>
@@ -93,7 +91,9 @@
 
         <div class="sm:hidden" id="mobile-menu">
             <div class="space-y-1 px-2 pb-3 pt-2">
-
+                <router-link to="/Vuelos"
+                class="block  px-3 py-2 text-base font-medium text-blue-600 hover:bg-blue-800 bg-white rounded-2xl  ">
+                <v-icon class="text-blue-600">mdi-airplane-landing</v-icon> Flights</router-link>
                 <a href="#" class="block  px-3 py-2 text-base font-medium text-blue-600 bg-white rounded-2xl  "> <v-icon
                         class="text-blue-600">mdi-bag-suitcase</v-icon> My bookings</a>
                 <a href="#" class="block  px-3 py-2 text-base font-medium text-blue-600 bg-white rounded-2xl  "> <v-icon

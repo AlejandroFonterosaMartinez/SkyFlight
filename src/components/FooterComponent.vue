@@ -4,26 +4,26 @@
             <div class="flex flex-col md:flex-row justify-between mb-6">
 
                 <div class="mb-4 md:mb-0">
-                    <h5 class="text-lg font-semibold mb-2 text-white dark:text-blue-300">Quick Links</h5>
-                    <ul class="list-none space-y-2">
-                        <li><a href="#" class="hover:underline">Home</a></li>
-                        <li><a href="#" class="hover:underline">Services</a></li>
-                        <li><a href="#" class="hover:underline">About Us</a></li>
-                        <li><a href="#" class="hover:underline">Contact</a></li>
+                    <h5 class="text-lg font-semibold mb-2  text-gray-800   dark:text-blue-300">Quick Links</h5>
+                    <ul class="list-none space-y-2  ">
+                        <li><a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Home</a></li>
+                        <li><a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Services</a></li>
+                        <li><a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">About Us</a></li>
+                        <li><a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Contact</a></li>
                     </ul>
                 </div>
 
-                <div class="mb-4 md:mb-0">
-                    <h5 class="text-lg font-semibold mb-2 text-white dark:text-blue-300">Follow Us</h5>
-                    <div class="flex space-x-4">
-                        <a href="#" class="hover:underline">Facebook</a>
-                        <a href="#" class="hover:underline">Twitter</a>
-                        <a href="#" class="hover:underline">Instagram</a>
-                        <a href="#" class="hover:underline">LinkedIn</a>
+                <div class="mb-4 md:mb-0 ">
+                    <h5 class="text-lg font-semibold mb-2  text-gray-800   dark:text-blue-300">Follow Us</h5>
+                    <div class="flex space-x-4 ">
+                        <a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Facebook</a>
+                        <a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Twitter</a>
+                        <a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">Instagram</a>
+                        <a href="#" class="hover:underline  text-gray-800   dark:text-blue-300">LinkedIn</a>
                     </div>
                 </div>
             </div>
-            <div class="text-center">
+            <div class="text-center  text-gray-800   dark:text-blue-300">
                 <p>&copy; 2024 SkyFlights. All rights reserved. &nbsp; Created by Alejandro Fonterosa Martinez.</p>
             </div>
         </div>
@@ -47,13 +47,5 @@ export default {
 </script>
 
 <style>
-footer a {
-    color: #ffffff;
-}
-
-footer a:hover {
-    color: #dbeafe;
-}
-
 
 </style>
