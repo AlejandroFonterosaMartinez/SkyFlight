@@ -46,12 +46,13 @@
                             <v-icon class="text-gray-400 mr-4">mdi-account</v-icon>
                         </div>
                         <v-number-input @min="1" :reverse="false" control label="Passengers" variant="solo"
-                            :hideInput="false" :inset="false"
+                            v-model="passenger" :hideInput="false" :inset="false" min="1"
                             class="w-full md:w-56 h-12 text-slate-700 dark:text-white"></v-number-input>
                     </div>
                 </div>
 
-                <v-btn prepend-icon="mdi-airplane" class="w-full sm:w-auto bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-300 dark:text-blue-800 dark:hover:bg-blue-400 h-12 mt-3">
+                <v-btn prepend-icon="mdi-airplane"
+                    class="w-full sm:w-auto bg-blue-600 text-white rounded-lg hover:bg-blue-700 dark:bg-blue-300 dark:text-blue-800 dark:hover:bg-blue-400 h-12 mt-3">
                     Search
                 </v-btn>
             </div>
@@ -66,6 +67,11 @@ import { VSelect } from 'vuetify/components';
 import { VNumberInput } from 'vuetify/labs/VNumberInput'
 
 export default {
+    data() {
+        return {
+            passenger: 1,
+        }
+    },
     components: {
         VDateInput,
         VSelect,
